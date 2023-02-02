@@ -1,0 +1,68 @@
+<head>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- <link rel="stylesheet" href="./styles/old/1login-header.css" />
+    <link rel="stylesheet" href="./styles/old/1login-contents.css" />
+    <link rel="stylesheet" href="./styles/old/1login-extras.css" /> -->
+
+   
+    <!--done-->
+</head>
+<body class="body">
+    <div class="header">
+        <img src="header2.png" class="under" />
+        <img src="logo-header.svg" class="over" /> <!--Background of the header is different from what is given in the snapshot-->
+    </div>
+    <div class="contents"> <!--Where is the form tag?-->
+        <form>
+        <div class="login">
+            <a class="link" href="page not found"><img class="back" src="back.svg"></a>
+            <h2 class="log-in">Log in with Quantum</h2>
+        </div>
+        <div class="line2">
+            <input class="radio" name="radio" type="radio"> <!--This should be actual radio buttons instead of img and p tags-->
+            <p class="line2text"> District </p>
+            <input class="radio" name="radio" type="radio">
+            <p class="line2text"> Independent School </p>
+        </div>
+        <div>
+            <p class="state">State*</p> <!--Label colors are light in shade in the original snapshot-->
+            <label class="dropdown" for="state"></label> <!--All the field are required *-->
+                <select class="select" name="state" id="state">
+                    <option value="Alabama">Alabama</option>
+                    <option value="no other state available">no other state available</option>
+                </select>
+            <p class="district">District*</p>
+            <label class="dropdown" for="District"></label>
+                <select class="select" name="District" id="District"> <!--Indentation can be corrected so the element nesting can be understood properly-->
+                    <option value="Alabama">Alabama School District</option>
+                    <option value="no other district available">no other district available</option>
+                </select>
+        </div>
+        <div>
+            <input class="input" type="text" placeholder="Username/Email ID*"> <!--Required field-->
+            <a class="link" href="page not found"><p class="right">FORGOT USERNAME?</p></a>
+            <div class="password"><input class="input2" type="password" placeholder="Password*"><img src="preview.svg" /></div>
+            <a class="link" href="page not found"><p class="right">FORGOT PASSWORD?</p></a>
+        </div>
+        <div class="line3">
+            <input class="checkbox" type="checkbox"><p>Remember me</p>
+        </div>
+    </form>
+        <div>
+            <a class="link" href="2Dashboard.html"><button class="loginb">LOG IN</button></a> <!--When you hover on a button, the icon should change to cursor so that we can identify the element is clickable-->
+        </div>
+    </div>
+    <div class="contact">
+        <a class="link" href="page not found"><p>About</p></a> <!--Should be link-->
+        <p class="extra1">|</p>
+        <a class="link" href="page not found"><p>Contact us</p></a> <!--Should be link-->
+    </div>
+    <div class="footer">
+        <img src="logo-footer.svg"/>
+        <p class="extra2">|</p>
+        <p class="copyright">Copyright 2020-2021 </p>
+        <p class="zeus"> Zeus Systems Pvt. Ltd. </p>
+        <p class="copyright"> All rights reserved</p>
+    </div>
+</body>

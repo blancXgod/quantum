@@ -1,0 +1,126 @@
+.body{
+    display: grid;
+    background-color: rgb(238,238,238);
+    font-family: quicksand;
+}
+.header{
+    background-color: rgb(39, 38, 38);
+    padding: 1cm;
+    grid-column: 1/ span 9;
+    grid-row: 1/ span 1;
+    padding-bottom: 0mm;
+    padding-top: 0mm;
+    margin-top: 0mm;
+    margin-bottom: 0mm;
+    position:sticky;
+        top: 0;
+    display: flex;
+    margin-right: 1px;
+    padding-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+}
+.header-text{
+    display: flex;
+    color: rgb(57,174,122);
+    padding-left: 4mm;
+    padding-right: 4mm;
+}
+.header-image{
+    display: flex;
+    color: rgb(57,174,122);
+    padding-left: 4mm;
+    padding-right: 4mm;
+}
+.header-text1{
+    color: white;
+    border-bottom: 1mm solid white;
+    padding-right: 1px;
+    padding-bottom: 1.6mm;
+    margin-bottom: 1px;
+}
+.header-icon{
+    padding-left: 4mm;
+    padding-right: 4mm;
+    text-align: right;
+}
+.header2{
+    grid-column: 3/ span 5;
+    grid-row: 2/ span 2;
+}
+.contact{
+    display: flex;
+    color: rgb(103, 194, 163);
+    grid-column: 1/span 9;
+    grid-row: 9/ span 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.footer{
+    background-color: rgb(223, 219, 219);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/ span 9;
+    grid-row: 10/ span 1;
+}
+.copyright{
+    font-weight: lighter;
+    color: gray;
+    padding-left: 1em;
+}
+.zeus{
+    font-weight: bold;
+    color: gray;
+    padding-left: 1em;
+}
+.over{
+    padding-right: 18.3cm;
+}
+@media (max-width: 1000px){
+    /* .footer-main{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    } */
+    .contents{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
+        width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .line3-col1{
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+    .line3-col2{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .line4-col1{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+    .line4-col2{
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+}
+@media (max-width: 833px){
+    .header-text{
+        display: none;
+    }
+    .header-text1{
+        display: none;
+    }
+    .line3{
+        display: block;
+    }
+    .line4{
+        display: block;
+    }
+}

@@ -1,0 +1,46 @@
+.log-in{
+    font-weight: 800;
+    text-align: center;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+}
+.line2text{
+    padding-right: 1cm;
+    padding-left: 3mm;
+}
+.password{
+    display: flex;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+}
+.select{
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    width: 100%;
+}
+.select:focus{
+    outline: none;
+}
+.district{
+    padding-top: 5mm;
+    margin-bottom: 2mm;
+    color: grey;
+}
+.state{
+    margin-bottom: 2mm;
+    color: grey;
+}
+.checkbox{
+    background-color: rgb(103, 194, 163);
+    accent-color: rgb(103, 194, 163);
+}
+.link{
+    text-decoration: none;
+    color: rgb(103, 194, 163);
+}
+.back{
+    padding-top: 5mm;
+}

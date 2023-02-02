@@ -1,0 +1,164 @@
+.l11{
+    padding-left: 8cm;
+    border-bottom: 1mm solid black;
+    display: flex;
+    height: 9mm;
+    padding-bottom: 2mm;
+    padding-top: 3mm;
+}
+.l12{
+    display: flex;
+    padding-left: 6cm;
+    height: 9mm;
+    padding-top: 3mm;
+    padding-bottom: 3mm;
+}
+.l2r{
+    padding-left: 24cm;
+}
+.sort{
+    padding-left: 5mm;
+    height: 7mm;
+    padding-top: 3mm;
+}
+.dropdown{
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    width: 90%;
+    font-size: large;
+    padding-top: 1mm;
+}
+.dropdown1{
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    width: 90%;
+    color: rgb(157, 155, 155);
+    font-size: large;
+}
+.dropdown2{
+    background-color:rgb(238, 238, 238);
+    border-bottom: 1px solid rgb(193, 193, 193);
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+    height: 7mm;
+    margin-top: 4mm;
+    font-weight: bolder;
+    color: black;
+    border-radius: 1px;
+    width: 4cm;
+}
+.dropdown:focus{
+    outline: none;
+}
+.dropdown1:focus{
+    outline: none;
+}
+.dropdown2:focus{
+    outline: none;
+}
+.extra1{
+    font-weight: lighter;
+    padding-left: 2mm;
+    padding-right: 2mm;
+}
+.content-text{
+    padding-left: 1em;
+}
+.title{
+    display: flex;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    padding-top: 1px;
+    height: 9mm;
+}
+.star1{
+    padding-left: 6.7cm;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    height: 9mm;
+}
+.star3{
+    padding-left: 1cm;
+}
+.star2{
+    filter:opacity(10%);
+    filter: saturate(10%);
+    padding-left: 1cm;
+}
+.subtext{
+    display: flex;
+    font-weight: 300;
+    padding-bottom: 2mm;
+    padding-top: 2mm;
+    height: 8mm;
+}
+.subtext2{
+    display: flex;
+    font-weight: 300;
+    padding-bottom: 1mm;
+    padding-top: 1mm;
+}
+.extra2{
+    font-weight: lighter;
+    padding-left: 5mm;
+    padding-right: 5mm;
+}
+.num{
+    font-weight: 700;
+    padding-left: 2mm;
+    padding-right: 1mm;
+}
+.num1{
+    font-weight: 700;
+    padding-right: 1mm;
+
+}
+.text{
+    font-weight: 500;
+    color: rgb(9, 220, 9);
+}
+.logo-img{
+    height: 5.5cm;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+    border-bottom: 1px;
+}
+.buttons{
+    width: 1cm;
+    height: 7mm;
+    padding-top: 5mm;
+    padding-left: 8mm;
+    padding-right: 2.5cm;
+}
+.buttons1{
+    width: 1cm;
+    height: 7mm;
+    padding-top: 5mm;
+    padding-left: 8mm;
+    padding-right: 2.5cm;
+}
+.buttons2{
+    width: 1cm;
+    height: 7mm;
+    padding-top: 5mm;
+    padding-left: 8mm;
+    padding-right: 2.5cm;
+    filter:opacity(40%);
+}
+.test1{
+    display: flex;
+    padding-bottom: 7mm;
+
+}
+.test{
+    display: flex;
+    padding-bottom: 5mm;
+}

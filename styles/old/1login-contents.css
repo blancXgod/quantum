@@ -1,0 +1,77 @@
+ .login{
+    display: flex;
+    text-align: center;
+}
+.line2{
+    display: flex;
+    text-align: center;
+}
+.input{
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    padding-top: 1.25cm;
+    width: 100%;
+}
+.input:focus{
+    outline: none;
+}
+.input2{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    padding-top: 7mm;
+    width: 100%;
+}
+.input2:focus{
+    outline: none;
+}
+.right{
+    text-align: right;
+    color: rgb(40,127,90);
+    font-weight: bold;
+}
+.line3{
+    display: flex;
+    padding-bottom: 1px;
+    font-weight: bold;
+}
+.loginb{
+    display: block;
+    background-color: rgb(63,210,139);
+    padding-left: 1.7cm;
+    padding-right: 1.7cm;
+    padding-top: 3mm;
+    padding-bottom: 3mm;
+    border: hidden;
+    border-radius: 1mm;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+}
+.extra1{
+    font-weight: lighter;
+    padding-left: 2mm;
+    padding-right: 2mm;
+}
+.extra2{
+    font-weight: lighter;
+    padding-left: 1em;
+}
+.copyright{
+    font-weight: lighter;
+    color: gray;
+    padding-left: 1em;
+}
+.zeus{
+    font-weight: bold;
+    color: gray;
+    padding-left: 1em;
+}
+.radio{
+    width: 5mm;
+    cursor: pointer;
+    accent-color: green;
+    padding-right: 5mm;
+}
